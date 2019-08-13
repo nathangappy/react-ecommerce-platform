@@ -24,3 +24,16 @@
     }
   }
 }
+ 
+@media(max-width: 500px) {
+  .header {
+    .logo-container {
+      .options {
+        .option {
+          padding: 10px 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+} 
