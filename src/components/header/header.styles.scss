@@ -24,16 +24,19 @@
     }
   }
 }
- 
-@media(max-width: 500px) {
+
+@media (max-width: 500px) {
   .header {
-    .logo-container {
-      .options {
-        .option {
-          padding: 10px 10px;
-          cursor: pointer;
-        }
+    display: block;
+    text-align: center;
+    .options {
+      width: 100%;
+      justify-content: space-around;
+      .option {
+        font-size: 1.5rem;
+        padding: 10px 10px;
+        cursor: pointer;
       }
     }
   }
-} 
+}
